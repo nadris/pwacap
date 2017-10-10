@@ -1,0 +1,93 @@
+p,h1,h2,h3,h4,h5,h6{
+  margin-top: 0.7em !important;
+  margin-bottom: 0.7em !important;
+}
+button{
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.boton_naranja{
+  cursor: pointer;
+  color: white;
+  /*font-weight: bold;*/
+  border: 0;
+  background-color: orange;
+  padding: 0.7em;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.boton_naranja:hover{
+  color: orange;
+  background-color: white;
+  font-weight: bold;
+}
+.home-header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*background-position: 0;*/
+  }
+  .cover{
+    object-fit: cover;
+  }
+  .home-header__image {
+  /*background: #122109 url(https://s3-us-west-2.amazonaws.com/devcodepro/img/fondo/fondo.jpg) no-repeat center top / cover;*/
+  /*background-position: center;*/
+  /*background-position: top;*/
+  /*background-repeat: no-repeat;*/
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  filter: none;
+  z-index: 80;
+  /*background-size: cover;*/
+}
+.home-header__background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  filter: none;
+  z-index: 81;
+  background: #000;
+  opacity: .75;
+}
+.home-header-content {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -o-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -o-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      padding: 150px 0;
+      position: relative;
+      z-index: 90;
+      color: white;
+}
+.home-header-content__title{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.home-header-content__parrafo{
+  font-size: 1.5rem;
+}

@@ -1,0 +1,61 @@
+.evento__image{
+height: 300px;
+object-fit: cover;
+}
+.nuestros__eventos{
+padding:1.5em;
+}
+.nuestros__eventos div h3{
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 2px solid #FFA500;
+  display: inline-block;
+}
+.evento__flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.blog-post {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 19px;
+  overflow: hidden;
+  z-index: 1;
+}
+.blog-post__content {
+  position: absolute;
+  top: 185px;
+  left: 27px;
+  margin-right: 135px;
+  color: white !important;
+}
+.blog-post__content h2 a{
+  background-color: #FFA500;
+  text-decoration: none;
+  color:white !important;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.blog-post__content .horario{
+  background-color: #4A4A4A;
+  color:white !important;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+@media (max-width: 750px) {
+  .blog-post__content {
+    top: 50%;
+    left: 5px;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "alcaldiaApp",
+  "version": "1.0.0",
+  "description": "Frontend para una App del CAP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FactoryByte",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "http": "0.0.0",
+    "node-static": "^0.7.9"
+  },
+  "devDependencies": {
+    "livereload": "^0.6.0"
+  }
+}

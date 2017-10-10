@@ -1,0 +1,19 @@
+.apoyan{
+  padding: 1.5em;
+}
+.apoyan__titulo{
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+.apoyan__flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.apoyan__flex .link{
+  margin: 1em;
+  text-align: center;
+}

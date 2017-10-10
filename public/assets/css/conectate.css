@@ -1,0 +1,26 @@
+.conectate{
+  padding: 20px;
+}
+.conectate p{
+  color:orange;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.conectate-social{
+  font-size: 1em;
+  color: #4a4a4a !important;
+  margin:10px;
+}
+.conectate-social span i{
+  cursor: pointer;
+}
+.conectate-social span i:hover{
+  color:orange;
+}
+
+.conectate-social a{
+  color: #4a4a4a !important;
+}
+.conectate-social__contenedor{
+  padding: 20px;
+}

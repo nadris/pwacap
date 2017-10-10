@@ -1,0 +1,61 @@
+.notificacion{
+  background-color: #FAFAFA;
+  padding: 1.5em;
+}
+.notificacion h3{
+  color: #FFA500;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.notificacion .card{
+  background: #FEFEFE;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.09);
+  border-radius: 3px;
+  padding: 15px 20px;
+  margin:20px;
+  width: 357px;
+}
+.card__content span i{
+  font-size: 1.5em;
+  display: inline-block;
+}
+.card__content .titulo{
+  display: inline-block;
+  margin-left: 5px;
+  color:#FFA500;
+  font-size: 0.8em;
+}
+.card__content .fecha{
+  font-size: 0.7em;
+  background-color: #FFA500;
+  padding: 4px;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+}
+.card__parrafo{
+  color: #B9B9B9;
+  margin-top: 0 !important;
+}
+/*los pares*/
+.titulo__user{
+  color:#212121;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.noti__flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.card__content span .fa-clock-o{
+  font-size: 16px;
+}
+.card__content .hora{
+  font-size: 0.8em;
+    color: #B9B9B9;
+    margin-left: 45%;
+}

@@ -1,0 +1,25 @@
+footer{
+  background-color: #282D31;
+  padding: 20px;
+  color:white !important;
+}
+.footer-info{
+  padding: 30px !important;
+}
+.footer-info__titulo{
+    border-bottom: 1px solid #686B6E;
+    font-weight: bold;
+}
+.footer-info__titulo span{
+    margin-bottom: 5px;
+}
+.footer-info__dato{
+  margin: 5px;
+}
+.footer-info__dato-tres a{
+  margin: 5px;
+  color: white !important;
+}
+.footer-info__dato-tres a:hover{
+    text-decoration: underline;
+}
