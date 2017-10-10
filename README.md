@@ -17,3 +17,7 @@ node server.js
 http://localhost:5454/home.html
 http://localhost:5454/notificacion.html
 ```
+## ---> modulos desarrollados
+* home
+* notificaciones
+* admisiones
