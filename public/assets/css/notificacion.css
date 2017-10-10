@@ -59,3 +59,10 @@
     color: #B9B9B9;
     margin-left: 45%;
 }
+
+
+@media screen and (max-width: 699px)  {
+  .card__content .hora{
+      margin-left: 20%;
+  }
+}

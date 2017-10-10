@@ -91,3 +91,18 @@ button{
 .home-header-content__parrafo{
   font-size: 1.5rem;
 }
+
+
+@media screen and (max-width: 699px)  {
+  .home-header-content {
+        padding: 75px 0;
+
+  }
+  .admision-header-content__title{
+    font-size: 1.3rem;
+
+  }
+  .admision-header-content__parrafo{
+    font-size: 1rem;
+}
+}
